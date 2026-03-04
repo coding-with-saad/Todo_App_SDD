@@ -17,21 +17,27 @@
   the iteration process.
 -->
 
-**Language/Version**: [e.g., Python 3.11, Swift 5.9, Rust 1.75 or NEEDS CLARIFICATION]  
-**Primary Dependencies**: [e.g., FastAPI, UIKit, LLVM or NEEDS CLARIFICATION]  
-**Storage**: [if applicable, e.g., PostgreSQL, CoreData, files or N/A]  
-**Testing**: [e.g., pytest, XCTest, cargo test or NEEDS CLARIFICATION]  
-**Target Platform**: [e.g., Linux server, iOS 15+, WASM or NEEDS CLARIFICATION]
-**Project Type**: [single/web/mobile - determines source structure]  
-**Performance Goals**: [domain-specific, e.g., 1000 req/s, 10k lines/sec, 60 fps or NEEDS CLARIFICATION]  
-**Constraints**: [domain-specific, e.g., <200ms p95, <100MB memory, offline-capable or NEEDS CLARIFICATION]  
-**Scale/Scope**: [domain-specific, e.g., 10k users, 1M LOC, 50 screens or NEEDS CLARIFICATION]
+**Current Project Phase**: [e.g., Phase I - In-Memory, Phase II - Web, etc.]
+**Language/Version**: [e.g., Python 3.12]  
+**Primary Dependencies**: [e.g., SQLModel, FastAPI, OpenAI Agents SDK]  
+**Storage**: [e.g., In-memory, Neon PostgreSQL, or N/A]  
+**Testing**: [e.g., pytest]  
+**Target Platform**: [e.g., CLI, Next.js, Kubernetes]
+**Project Type**: [single/web/mobile/AI-agent]  
+**Performance Goals**: [domain-specific]  
+**Constraints**: [Must align with current phase in constitution]  
+**Scale/Scope**: [domain-specific]
 
 ## Constitution Check
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] Does the implementation plan strictly follow the constraints of the **Current Project Phase**?
+- [ ] Is core business logic kept framework-independent?
+- [ ] Are domain models preserved without rewrite?
+- [ ] Are all external integrations implemented as adapters?
+- [ ] [Phase-specific Gate 1]
+- [ ] [Phase-specific Gate 2]
 
 ## Project Structure
 

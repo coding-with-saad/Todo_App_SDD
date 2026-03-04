@@ -8,6 +8,9 @@ description: "Task list template for feature implementation"
 **Input**: Design documents from `/specs/[###-feature-name]/`
 **Prerequisites**: plan.md (required), spec.md (required for user stories), research.md, data-model.md, contracts/
 
+**Current Project Phase**: [e.g., Phase I - In-Memory]
+> ⚠️ **CONSTITUTION COMPLIANCE**: All tasks MUST comply with the constraints of the current project phase (e.g., Python 3.12, no DB in Phase I, strict type hints, 40-line limit).
+
 **Tests**: The examples below include test tasks. Tests are OPTIONAL - only include them if explicitly requested in the feature specification.
 
 **Organization**: Tasks are grouped by user story to enable independent implementation and testing of each story.
