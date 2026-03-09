@@ -1,0 +1,29 @@
+# Node.js
+node_modules/
+.next/
+dist/
+build/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+*.egg-info/
+*.egg
+
+# Secrets
+.env
+.env.*
+
+# System
+.DS_Store
+Thumbs.db
+
+# Other
+coverage/
+.vscode/
+.idea/

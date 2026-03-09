@@ -42,6 +42,71 @@ Better Auth
 
 
 
+
+
+
+
+
+# [Feature Name] Implementation Plan
+
+## Objective
+
+- Define the goal of this feature
+- Describe what successful implementation should achieve
+
+## Architecture Overview
+
+- High-level system design
+- Components involved in the feature
+- How these components interact
+
+## Implementation Phases
+
+### Phase 1: Setup
+- Initial configuration and environment setup
+- Create base modules or project structure
+
+### Phase 2: Core Implementation
+- Implement main feature logic
+- Integrate with required services or modules
+
+### Phase 3: Integration
+- Connect feature with other system components
+- Validate communication between modules
+
+### Phase 4: Testing and Validation
+- Write and run tests
+- Verify expected behavior
+- Fix discovered issues
+
+## Module Structure
+
+- List files and folders involved
+- Explain responsibilities of each module
+
+
+## Risks and Mitigation
+
+- Potential technical risks
+- Strategies to reduce or prevent those risks
+
+## Dependencies
+
+- Libraries or services required
+- Other features or modules that must exist first
+
+## Completion Criteria
+
+- Feature works according to specification
+- Tests pass successfully
+- Code follows project constitution rules
+- Feature integrates correctly with the application
+
+
+
+
+
+
 Better Auth can be configured to issue JWT (JSON Web Token) tokens when users log in. These tokens are self-contained credentials that include user information and can be verified by any service that knows the secret key.
 How It Works
 User logs in on Frontend → Better Auth creates a session and issues a JWT token
