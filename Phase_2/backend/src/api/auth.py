@@ -6,7 +6,7 @@ import bcrypt
 from ..database.session import get_session
 from ..repository.user import UserRepository
 from ..models.user import User
-from ..auth.jwt_utils import create_access_token
+from ..auth.jwt import create_access_token
 
 router = APIRouter()
 
